@@ -14,6 +14,14 @@ body {
   background-color: #393E46;
 }
 
+.but{
+  text-align: center;
+}
+
+.but1{
+  background-color: red;
+}
+
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
@@ -26,6 +34,12 @@ p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
+}
+
+#myButton {
+  width: 80px;
+  height: 30px;
+  background-color: whitesmoke;
 }
 
 img {
