@@ -1,4 +1,5 @@
-window.onload = function() {
+const button = document.getElementById("myButton");
+function dicegame() {
     var randomNumber1 = Math.floor(Math.random()*6 + 1);
     var randomNumber2 = Math.floor(Math.random()*6 + 1);
     var images1 = "images/dice"+ randomNumber1 +".png";
@@ -16,3 +17,5 @@ window.onload = function() {
     }
 
 };
+
+button.onclick = dicegame;
